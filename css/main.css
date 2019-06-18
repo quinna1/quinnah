@@ -1,9 +1,16 @@
 html {
- background-color: #c4b2c3
+ background-color: black;
  font-family: "Merriweather", sans-serif;
 
 }
+html, body {
+height: 100%;
+margin: 0;
+padding: 0;
+width: 100%;
+}
 body {
+ display: table;
  color: white;
 }
 
@@ -30,6 +37,12 @@ body {
 /* Change the link color to #111 (black) on hover */
 .menu li a:hover {
   background-color: #111;
+}
+
+.intro {
+text-align: center;
+display: table-cell;
+vertical-align: middle;
 }
 
 .typewriter h1 {
