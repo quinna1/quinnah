@@ -1,1 +1,56 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Source+Serif+Pro|Lato|Cormorant+Garamond");html,body{margin:0;overflow-x:hidden;background-color:black}#goHome{margin-top:55px;margin-left:70px;font-family:"Open Sans";font-weight:bold;color:#f26f61;float:right;position:absolute;text-transform:uppercase;text-decoration:none;letter-spacing:0.15em;font-size:20px}#intro{padding-bottom:140px;position:relative}#intro img{margin-left:68%;margin-top:-500px;margin-bottom:70px}#intro #title{font-family:"Source Serif Pro";color:#fff;margin-top:150px;font-size:65px;margin-left:17%;font-weight:semi-bold}ul{width:100%;height:100%;z-index:1;overflow:hidden;font-weight:bold;background-color:black;font-family:"Open Sans";margin-top:50px;margin-left:-200px}ul li{float:right}ul li a{color:#fff;text-transform:uppercase;text-decoration:none;letter-spacing:0.15em;padding:15px 20px;display:block;font-size:17px}ul li a:hover{color:#f26f61}.slantClass{overflow:hidden;margin-top:-50px}.slantClass .slant{display:block;position:relative;width:100%;background:#fff;margin-top:50px}.slantClass .slant:after,.slantClass .slant:before{content:'';display:block;position:absolute;border-style:solid}.slantClass .slant:before{top:-50px;border-color:transparent #fff #fff #fff;border-width:50px 100vw 0 0}.slantClass .slant:after{bottom:-50px;border-color:#fff #fff transparent #fff;border-width:0 100vw 50px 0}.slantClass .slant #projectsT{padding-top:70px;padding-left:70px;font-size:50px;font-family:"Source Serif Pro";color:black}.slantClass .slant #number{font-size:40px;font-family:"Source Serif Pro";color:black;padding-left:70px;font-weight:bold}.slantClass .slant #name,.slantClass .slant #desc{margin-top:-30px;font-style:italic;font-family:"Source Serif Pro";color:black;padding-left:70px;font-size:35px}.slantClass .slant #desc{font-size:20px;font-style:normal;margin-top:-10px}.slantClass .slant a{font-family:"Open Sans";color:black;padding-left:70px;text-decoration:none;font-size:15px;text-transform:uppercase;letter-spacing:0.15em;font-weight:bold}.grid-container{margin-top:-60px;display:grid;grid-template-columns:50% 50%;padding:65px}.grid-container #grid-item{border-radius:5px;background-color:white;border:1px solid #e7e7e7;margin-top:30px;margin-right:10px;margin-left:10px;padding:20px;font-size:30px}.grid-container #grid-item:hover{-webkit-transform:translateY(-10%);transform:translateY(-10%);box-shadow:0px 20px 8px #e7e7e7}footer{height:55px}footer p{font-family:"Open Sans";letter-spacing:0.15em;font-weight:bold;text-transform:uppercase;color:#fff;font-size:11px;float:right;margin-right:50px;margin-top:20px}footer img{width:25px;float:left;margin-left:50px;margin-top:15px}footer #credits{float:left;margin-left:5px}.dropdown{position:absolute;display:inline-block;z-index:10}.dropdown-content{display:none;position:relative}.dropdown-content a{font-size:10px}.dropdown:hover .dropdown-content{display:block}
+#menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+#menu li {
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+#menu li a:hover {
+  background-color: #111;
+}
+
+.typewriter h1 {
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+li.socials {
+  list-style: none;
+  margin: 5px 15px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 10px;
+  color: #4b6287;
+}
