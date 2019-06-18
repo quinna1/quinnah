@@ -1,7 +1,10 @@
 html {
   background-color: black;
   font-family: "Merriweather", sans-serif;
-  font-color: white;
+}
+
+body {
+  color: white;
 }
 .menu ul {
   list-style-type: none;
