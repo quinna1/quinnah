@@ -1,11 +1,9 @@
 html {
   background-color: black;
   font-family: "Merriweather", sans-serif;
-}
-
-body {
   color: white;
 }
+
 .menu ul {
   list-style-type: none;
   margin: 0;
