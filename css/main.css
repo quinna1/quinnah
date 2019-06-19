@@ -68,7 +68,7 @@ vertical-align: middle;
   50% { border-color: orange; }
 }
 
-li.socials {
+.media li.socials {
   list-style: none;
   margin: 5px 15px;
   display: inline-block;
