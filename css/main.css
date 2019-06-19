@@ -1,6 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab|Zilla+Slab&display=swap');
 html {
  background-color: black;
- font-family: "Merriweather", sans-serif;
+ font-family: "Josefin Slab", serif;
 
 }
 html, body {
@@ -46,7 +47,7 @@ vertical-align: middle;
 }
 
 .typewriter h1 {
-  font-family: "Shadows Into Light", cursive;
+  font-family: "Zilla Slab", serif;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   border-right: .15em solid orange; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
