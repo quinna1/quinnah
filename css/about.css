@@ -42,7 +42,8 @@ ul li a{color:black}#current{color:#f26f61}
 .grid2 #split-item{border-radius:5px;background-color:white;border:1px solid #fff;margin-right:10px;margin-left:10px;padding:20px;font-size:30px}
 .grid2 #split-item #paragraph{font-family:"Open Sans";font-size:17px;color:#5c5c5c}
 .grid2 #split-item #paragraph .mockup{width:80%;display:table;margin:0 auto}
-.grid2 #split-item #paragraph #head{font-size:30px;font-family:"Josefin Slab";font-weight:bold;color:black}
+.grid2 #split-item #paragraph #header
+{font-size:30px;font-family:"Josefin Slab";font-weight:bold;color:black}
 .grid2 #facts{border-radius:2px;background-color:white;margin-right:10px;margin-left:80px;padding:13px;font-size:30px;height:230px;margin-bottom:50px;margin-top:25px}
 
 .grid2 #facts #fax,.grid2 #facts #bullet{color:black;font-weight:semi-bold;text-transform:capitalize;margin-bottom:20px;display:block;font-size:25px;font-family:"Source Serif Pro"}
