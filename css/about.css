@@ -8,6 +8,9 @@ ul li a{color:black}#current{color:#f26f61}
 .rest{background-color:#fff}#opening{width:90%;display:table;margin:0 auto}
 #colours{width:50%}#header{font-family:"Josefin Slab";font-size:35px;font-weight:semi-bold}
 
+.menu {
+  background-color: #333;
+}
 .menu ul {
   list-style-type: none;
   margin: 0;
