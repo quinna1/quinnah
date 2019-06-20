@@ -70,6 +70,10 @@ vertical-align: middle;
   50% { border-color: orange; }
 }
 
+p {
+font-size: 30px;
+}
+
 p #sub {
  color: #cc3d52;
 }
