@@ -7,6 +7,14 @@ ul li a{color:black}#current{color:#f26f61}
 #desc{display:table;margin:0 auto;margin-top:-30px;font-family:"Source Serif Pro";color:black;text-align:center;font-size:20px;width:65%;margin-bottom:100px}
 .rest{background-color:#fff}#opening{width:90%;display:table;margin:0 auto}
 #colours{width:50%}#header{font-family:"Josefin Slab";font-size:35px;font-weight:semi-bold}
+.media li.socials {
+  list-style: none;
+  margin: 5px 15px;
+  display: inline-block;
+  font-size: 20px;
+  padding: 10px 10px;
+  color: #4b6287;
+}
 .grid2{display:grid;grid-template-columns:60% 40%;padding:65px;padding-top:-50px;margin-top:-50px}
 .grid2 #split-item{border-radius:5px;background-color:white;border:1px solid #fff;margin-right:10px;margin-left:10px;padding:20px;font-size:30px}
 .grid2 #split-item #paragraph{font-family:"Open Sans";font-size:17px;color:#5c5c5c}
