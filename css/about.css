@@ -58,9 +58,9 @@ ul li a{color:black}#current{color:#f26f61}
 .grid #split-item #paragraph .mockup{width:80%;display:table;margin:0 auto}
 
 .grid #split-item #paragraph #head,.grid #split-item #paragraph #subHead
-{font-size:25px;font-family:"Josefin Slab", serif;font-weight:500;color:black}
+{font-size:25px;font-family:"Josefin Slab", serif;font-weight:bold;color:black}
 
-.grid #split-item #paragraph #subHead{font-size:20px;font-weight:500}
+.grid #split-item #paragraph #subHead{font-size:20px;font-weight:bold}
 
 .media li.socials {
   list-style: none;
